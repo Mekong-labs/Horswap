@@ -1,7 +1,8 @@
 {
-  "name": "@mekonglabs/horswap",
+  "name": "@mekonglabs/horswap-033",
   "version": "1.0.0",
   "description": "Horswap Interface",
+  "repository": "https://github.com/Mekong-labs/Horswap",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "ajv": "node scripts/compile-ajv-validators.js",
@@ -275,7 +276,7 @@
   },
   "engines": {
     "npm": "please-use-yarn",
-    "node": "18.x",
+    "node": ">=18.x",
     "yarn": ">=1.22"
   },
   "homepage": "./"
